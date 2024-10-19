@@ -9,7 +9,7 @@ class students:
         return f"hello {self.name} your age is {self.age} congrats on your salary ({self.salary})"
 
 st1 = students("ahmed", 20, 5618)
-st2 = students("anwar", 21, 5618)
+st2 = students("abdelrahman", 22, 5118)
 
 
 print(st1.name, st1.age, st1.salary)
