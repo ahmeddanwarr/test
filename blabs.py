@@ -6,7 +6,7 @@ class students:
         self.salary = salary
         students.no_of_std += 1
     def descripe(self):
-        return f"hello {self.name} your age is {self.age} congrats on your salary ({self.salary})"
+        return f"hello {self.name} your age = {self.age} congrats on your salary = ({self.salary})"
 
 st1 = students("mohamed", 20, 5618)
 st2 = students("eman", 32, 6118)
