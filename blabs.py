@@ -8,8 +8,8 @@ class students:
     def descripe(self):
         return f"hello {self.name} your age is {self.age} congrats on your salary ({self.salary})"
 
-st1 = students("mo", 30, 5618)
-st2 = students("omar", 21, 1118)
+st1 = students("mohamed", 20, 5618)
+st2 = students("eman", 32, 6118)
 
 
 print(st1.name, st1.age, st1.salary)
