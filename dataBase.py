@@ -1,1 +1,1 @@
-print("test from main repo")
+print("test from locla repo")
