@@ -6,7 +6,6 @@ from src.model import SessionLocal
 from src.schemas import ProductCreate, ProductResponse
 from uuid import UUID
 
-# Dependency for the database session
 def get_db():
     db = SessionLocal()
     try:
